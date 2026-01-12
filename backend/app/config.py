@@ -29,6 +29,8 @@ class Settings:
     CORS_ORIGINS: list[str] = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://specter-vision.vercel.app",
+        "https://specter-vision-andyhu18.vercel.app",
     ]
     
     # 上傳限制
