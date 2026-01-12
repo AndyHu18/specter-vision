@@ -29,9 +29,9 @@ class Settings:
     CORS_ORIGINS: list[str] = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://specter-vision.vercel.app",
-        "https://specter-vision-andyhu18.vercel.app",
     ]
+    # 允許所有 Vercel 預覽網域
+    CORS_ORIGIN_REGEX: str = r"https://.*\.vercel\.app"
     
     # 上傳限制
     MAX_FILE_SIZE_MB: int = 5
